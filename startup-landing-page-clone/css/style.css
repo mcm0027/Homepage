@@ -1,0 +1,232 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+}
+
+/************
+Header
+**************/
+header {
+	display: block;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	border-bottom: 1px solid #eaebec;
+}
+
+nav img {
+	width: 26px;
+	display: inline-block;
+	float: left;
+	height: 4.375rem;
+}
+
+.content{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	height:70px;
+	box-sizing: border-box;
+	min-width: 37.5rem;
+}
+.header-links {
+	display: inline-block;
+	float: right;
+	margin-top: 1.7rem;
+	font-size: 1.04rem;
+	padding-left: 0;
+}
+
+.header-links li {
+	display: inline-block;
+	float: left;
+	margin-left: 1.563rem;
+	font-weight: 400;
+	height: 17px;
+	list-style: none;
+}
+
+.header-links li a {
+	color: #838994;
+	font-style: none;
+	text-decoration: none;
+}
+
+.header-links li a:hover {
+	color:#333;
+}
+
+.header-links .active a {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+/****************
+background image
+*****************/
+
+.backgroundImg {
+	background-image: url(../img/first-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 45.938rem;
+	overflow: auto;
+	background-position: center top;
+}
+
+.main-body {
+	color: white;
+}
+
+.main-body h2 {
+	margin: 17.5rem auto 0 auto;
+	font-size: 3.125rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.main-body h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.big-button {
+	font-family: "Arial", sans-serif;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
+	font-size: 1.25rem;
+	padding: 1rem 1.5rem;
+	font-weight: 300;
+	margin: 0 auto;
+	line-height: 1.33;
+	display: block;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+	border-color: #cf3d0e;
+}
+
+/***********
+icon section
+********/
+
+#icon-section {
+	background-color: white;
+	text-align: center;
+	font-weight: 300;
+	padding: 7.875rem 0 5rem;
+	color: #1d1e21;
+	display: inline-block;
+    width: 100%;
+}
+
+#icon-section h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.75rem;
+	padding: 0 0 3.125rem;
+}
+
+#three-icons li {
+	width: 33.3333%;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+
+#three-icons img {
+	width: 127px;
+}
+
+#three-icons ul {
+	padding: 0;
+}
+
+#three-icons h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
+}
+
+/******************
+footer
+***************/
+
+hr {
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem auto;
+	width: 95%;
+	text-align: center;
+	background-color: white;
+}
+
+footer {
+	padding-bottom: 9.375rem;
+}
+
+footer h5 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 100%;
+	font-weight: 400;
+}
+
+.social {
+	background-color: white;
+	width: 100%;
+	text-align: center;
+}
+
+.social ul {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+.social li {
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
+	list-style: none;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	text-align: center;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+	box-sizing: border-box;
+}
+
+#twitter {
+	color: #55acee;
+}
+
+#facebook {
+	color: #4c66a4;
+}
+
+#instagram {
+	color: #3f729b;
+}
+.copy {
+	font-size: 0.9rem;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	display: inline-block;
+	font-weight: 300;
+	color: #838994;
+}

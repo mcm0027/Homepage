@@ -1,0 +1,332 @@
+body {
+   background-image: url("../img/subtle_white_feathers.png");
+}
+
+/***************
+Header
+************/
+
+#backgroundHome {
+  background-image: url("../img/manc_cloudsresize.jpg");
+  position: relative;
+  display: inline-block; 
+  width:100%;
+  background-size: cover;
+}
+
+#backgroundPortfolio {
+  background-image: url("../img/fresh_cutResize.jpg");
+  position: relative;
+  display: inline-block; 
+  width:100%;
+  background-size: cover;
+}
+
+#backgroundContact {
+  background-image: url("../img/sunsetResize.jpg");
+  position: relative;
+  display: inline-block; 
+  width:100%;
+  background-size: cover;
+}
+.splash {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .6em;
+  text-shadow: 1px 1px #222;
+}
+
+.splash h1 {
+  margin-top: 2.5em;
+  margin-bottom: .5em;
+  font-size: 4em;
+}
+
+.splash h2 {
+  font-size: 2.5em;
+  margin-bottom:3em;
+}
+
+.headLinks {
+  list-style: none;  
+  border-bottom: 1px solid #666;
+  height: 23px;
+}
+
+.is-sticky nav {
+  background-image: url("../img/manc_cloudsresize.jpg");
+  z-index: 99999;
+}
+
+.is-sticky .portfolioLinks {
+  background-image: url("../img/fresh_cutResize.jpg");
+  background-position: -100px;
+}
+
+.is-sticky .contactLinks {
+  background-image: url("../img/sunsetResize.jpg");
+  background-position: -100px;
+}
+
+#selected {
+  color: #888;
+}
+
+#selectedPortfolio {
+  color: #1E53B5
+}
+.headLinks li {
+  display: inline-block;
+  padding: 0 2%;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.headLinks a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.headLinks a:hover {
+  color: #888;
+  }
+
+ul {
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #backgroundHome h1 {
+    font-size: 3em;
+  }
+  #backgroundHome h2 {
+    font-size: 2em;
+  }
+}
+
+/*********************8
+Body
+**********************/
+
+.intro,
+.location,
+.questions {
+  margin: 5% 30%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #333;
+}
+
+@media only screen and (max-width: 1200px) {
+  .intro,
+  .location,
+  .questions {
+    margin: 5% 25%;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  .intro,
+  .location,
+  .questions {
+    margin: 5% 15%;
+}
+}
+section h2 {
+  margin-bottom: 1em;
+  font-size: 2.5em;
+}
+.intro a,
+.location a,
+.questions a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+}
+
+section p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  margin-top: 1.5em;
+  color: #333;
+}
+
+section h3 {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  color: #36B3FF;
+  margin-top: 1.5em;
+  font-size:1.6em;
+}
+
+/******************
+Footer
+******************/
+footer {
+  text-align: center;
+  background-color: #444;
+  color: #ddd;
+  padding: 4%;
+  font-family: 'Roboto Slab', serif;
+  
+}
+footer a,
+footer a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: #36B3FF;
+}
+footer a:hover {
+  color: #266BE8
+}
+
+footer h4 {
+  font-size: 1.2em;
+  letter-spacing: .02em;
+}
+
+@media only screen and (max-width: 800px) {
+  footer h4 {
+  font-size: 1em;
+}
+  footer ul li {
+    font-size: 0.95em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer h4 {
+    font-size: 0.9em;
+  }
+  footer ul li {
+    font-size: 0.9em;
+  }
+}
+
+footer h4 a {
+  color: #26D2E8;
+}
+
+footer ul {
+  padding: 0;
+}
+
+
+footer ul li {
+  display: inline-block;
+  margin: 1% 1%;
+  list-style: none;
+  color: #36B3FF;
+  letter-spacing: .02em;
+}
+
+/********************
+portfolio
+******************/
+
+#gallery img {
+  width: 80%;
+  margin: 5% 10%;
+  display: inline-block;
+  float: left;
+}
+
+#gallery a {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+#gallery {
+  list-style: none;
+  padding: 5% 0;
+}
+
+
+.portfolioIntro,
+.contactcopy {
+  margin: 5% 30%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #333;
+}
+
+@media only screen and (max-width: 1200px) {
+  .portfolioIntro,
+  .contactcopy {
+    margin: 5% 25%;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolioIntro,
+  .contactcopy {
+    margin: 5% 15%;
+}
+}
+
+.portfolioIntro h3,
+.contactcopy h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: #333;
+  font-style: normal;
+}
+
+.portfolioIntro p,
+.contactcopy p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-top: 1.5em;
+  color: #333;
+}
+
+.contactcopy a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+}
+
+
+#gallery img {
+  float: left;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+  border-radius: 30px;
+  border: 4px solid #222;
+  display: block;
+}
+
+.chocolat-content .chocolat-img {
+  border: 4px solid #222;
+  border-radius: 30px;
+}
+
+.chocolat-wrapper .chocolat-bottom {
+  font-size: 16px;
+}
+
+#gallery a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+#gallery p {
+  margin-bottom: 2%;
+}
+
+#gallery li {
+  margin-bottom: 4%;
+}
+
+.paper {
+  background-image: url("../img/ricepaper_v3.png");
+}
+
+#selectedContact {
+  color: #333;
+}

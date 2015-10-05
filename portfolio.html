@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Ubuntu:400,700,400italic' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="js/Chocolat/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+ <body>
+    <header>
+      <div id="backgroundPortfolio">
+        <section class="splash">
+          <h1><strong>Matt Morris</strong></h1>
+          <h2>Developer</h2>
+            <nav class="headLinks portfolioLinks">
+              <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html"  id="selectedPortfolio">Portfolio</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </nav>
+          </section>
+      </div>
+    </header>
+    <section class="portfolioIntro">
+      <h2><strong>Portfolio</strong></h2>
+      <p>Here are a few of the things I've been working on lately. I'm proud to have found my first client in the small business, Amazing Arbors. Most of the styling for the site is complete, I just need some more copy from the owner.</p>
+      <p>You can click on the captions under the images to view the actual sites for Amazing Arbors and Karma.</p>
+    </section>
+    <div class="row paper">
+      <ul id="gallery" class="chocolat-parent" data-chocolat-title="Gallery">
+        <li class="col-md-4">
+          <a class="chocolat-image" href="img/AmazingArbors.png" title="Amazing Arbors website">
+            <img src="img/AmazingArborsResize.png" alt="Amazing Arbors Site" />
+             <a href="amazing/index.html"><p>My first contract (a work in progress)<p/></a>
+          </a>
+        </li>
+        <li class="col-md-4">
+          <a class="chocolat-image" href="img/TimesHack.png" title="Hack the Times">
+            <img src="img/TimesHackResize3.png" alt="New York Times Hack" />
+           </a>
+           <a><p>Fun with the Times</p></a>
+        </li>
+        <li class="col-md-4">
+          <a class="chocolat-image" href="img/Karma.png" title="Clone of Karma site">
+            <img src="img/KarmaResize.png" />
+          </a>
+          <a href="startup-landing-page-clone/index.html"><p>A clone of an existing site</p></a>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <h4>Say hi to me on these social networks:</h4>
+      <ul>
+        <li><a href="https://www.facebook.com/matt.morris.31?pnref=lhc">Facebook</a></li>
+        <li><a href="https://twitter.com/mcm0027">Twitter</a></li>
+        <li><a href="https://github.com/mcm0027">Github</a></li>
+        <h4>Cover image via <a href="http://littlevisuals.co/">Nic Jackson on Little Visuals</a></h4>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/Chocolat/jquery.chocolat.min.js"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+      $('.chocolat-parent').Chocolat();
+      });
+    </script>
+  </body>
+    
+</html>
